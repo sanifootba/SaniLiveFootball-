@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SaniLiveFootball — Watch Authorized Streams</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="ball">⚽</span> Sani<span>LiveFootball</span></div>
+  <nav><a href="#home">Home</a><a href="#live">Live</a><a href="#fixtures">Fixtures</a><a href="#leagues">Leagues</a></nav>
+  <button class="login" onclick="showLogin()">Sign in</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <p class="eyebrow">LIVE FOOTBALL</p>
+    <h1>Every match.<br><span>One place.</span></h1>
+    <p class="sub">A modern football hub for fixtures, live scores and authorized match streams.</p>
+    <div class="actions"><a class="primary" href="#live">Watch Live</a><a class="secondary" href="#fixtures">View Fixtures</a></div>
+  </div>
+  <div class="hero-card">
+    <div class="live-dot">● LIVE</div><div class="pitch">⚽</div>
+    <div class="hero-match"><b>Featured Match</b><span>Authorized stream</span></div>
+  </div>
+</section>
+
+<section id="live" class="section">
+  <div class="section-head"><div><p class="eyebrow">ON NOW</p><h2>Live Matches</h2></div><span class="badge">0 LIVE</span></div>
+  <div id="liveGrid" class="grid"></div>
+</section>
+
+<section id="fixtures" class="section dark">
+  <div class="section-head"><div><p class="eyebrow">UPCOMING</p><h2>Fixtures</h2></div></div>
+  <div id="fixtureGrid" class="grid"></div>
+</section>
+
+<section id="leagues" class="section">
+  <p class="eyebrow">COMPETITIONS</p><h2>Popular Leagues</h2>
+  <div class="league-grid">
+    <div class="league">🏴 <b>Premier League</b><small>England</small></div>
+    <div class="league">🇪🇸 <b>La Liga</b><small>Spain</small></div>
+    <div class="league">🇮🇹 <b>Serie A</b><small>Italy</small></div>
+    <div class="league">🇩🇪 <b>Bundesliga</b><small>Germany</small></div>
+    <div class="league">🏆 <b>Champions League</b><small>Europe</small></div>
+    <div class="league">🇫🇷 <b>Ligue 1</b><small>France</small></div>
+  </div>
+</section>
+</main>
+
+<div id="watchModal" class="modal"><div class="modal-box"><button class="close" onclick="closeWatch()">×</button><div id="watchContent"></div></div></div>
+<div id="loginModal" class="modal"><div class="modal-box small"><button class="close" onclick="closeLogin()">×</button><h2>Admin / User Sign in</h2><p>Demo interface. Connect your authentication provider before production.</p><input placeholder="Email" value="phoebemomanyi640@gmail.com"><input type="password" placeholder="Password"><button class="primary full">Sign in</button></div></div>
+
+<footer><div class="brand">⚽ Sani<span>LiveFootball</span></div><p>Streaming is provided only through authorized rights holders and licensed sources.</p><p>Admin: phoebemomanyi640@gmail.com</p></footer>
+<script src="app.js"></script>
+</body></html>
