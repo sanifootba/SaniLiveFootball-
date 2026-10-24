@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaniLiveFootball</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>⚽ SaniLiveFootball</h1>
+    <p>Your home for football</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#live">Live</a>
+    <a href="#fixtures">Fixtures</a>
+  </nav>
+
+  <main id="home">
+    <section class="hero">
+      <h2>Watch the beautiful game</h2>
+      <p>Football news, fixtures and authorized livestreams.</p>
+    </section>
+
+    <section id="live">
+      <h2>📺 Live Football</h2>
+      <div class="player">
+        <p>Authorized livestreams will appear here.</p>
+        <p>Add an official embeddable stream when available.</p>
+      </div>
+    </section>
+
+    <section id="fixtures">
+      <h2>📅 Upcoming Fixtures</h2>
+      <p>Match schedules coming soon.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 SaniLiveFootball</p>
+  </footer>
+</body>
+</html>
